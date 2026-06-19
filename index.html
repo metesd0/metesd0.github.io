@@ -3,204 +3,240 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mete — Web Geliştirici · Portfolyo</title>
-  <meta name="description" content="Metenin atölyesi: yayında olan siteler, yaklaşım ve iletişim. E-ticaret, pazar yeri, kuyumculuk ve dijital platformlar." />
+  <title>OFL STUDIO — Dijital ürün atölyesi</title>
+  <meta name="description" content="OFL STUDIO: yayında olan dijital ürünler. E-ticaret, pazar yeri, kuyumculuk, ajans ve platformlar — hepsi canlı, hepsi gerçek." />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- ambient texture -->
   <div class="grain" aria-hidden="true"></div>
   <div class="glow" aria-hidden="true"></div>
 
-  <a class="skip-link" href="#work">İçeriğe geç</a>
+  <a class="skip-link" href="#work">İşlere geç</a>
 
   <!-- ============ HEADER ============ -->
   <header class="site-header">
-    <a href="#" class="logo" aria-label="Başa dön">
-      <span class="logo-mark">●</span>
-      <span class="logo-text">mete<span class="logo-dot">.dev</span></span>
+    <a href="#" class="logo" aria-label="OFL STUDIO — başa dön">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-text">OFL<span class="logo-mute"> STUDIO</span></span>
     </a>
 
     <nav class="nav" aria-label="Ana navigasyon">
-      <a href="#work">Yayında</a>
-      <a href="#approach">Yaklaşım</a>
+      <a href="#work">İşler</a>
       <a href="#contact">İletişim</a>
     </nav>
 
-    <div class="status-pill" title="İstanbul saati">
+    <div class="status-pill" title="Tüm projeler canlı">
       <span class="status-dot" aria-hidden="true"></span>
-      <span class="mono"><span id="clock">--:--:--</span> TR</span>
+      <span class="mono">7 proje yayında</span>
     </div>
   </header>
 
   <main>
     <!-- ============ HERO ============ -->
     <section class="hero" id="top">
-      <p class="eyebrow mono reveal">portfolio · İstanbul</p>
+      <p class="eyebrow mono reveal">dijital ürün atölyesi</p>
       <h1 class="hero-title reveal">
-        Canlı siteler inşa ederim.<br />
-        <em>Soğuk bir ekranda</em> değil,<br />
-        gerçek kullanıcının elinde.
+        Fikri alır,<br />
+        <em>yayına</em> kadar götürürüz.
       </h1>
       <p class="hero-sub reveal">
-        Ben Mete. Yedi farklı sektör için — toptan gözlükten oyun e-pin pazarına,
-        kuyumculuğa, ajansa — yayında duran web siteleri geliştirdim.
-        Aşağıda hepsi gerçek, hepsi canlı, hepsi tıklanabilir.
+        E-ticaretten oyun pazarına, kuyumculuktan dijital ajansa —
+        yedi farklı sektörde canlı duran web ürünleri inşa ettik.
+        Aşağıdakilerin hepsi gerçek, hepsi çalışıyor, hepsi tıklanabilir.
       </p>
-
       <div class="hero-cta reveal">
         <a href="#work" class="btn btn-primary">
-          Yayındaki işleri gör
+          İşleri gör
           <span class="btn-arrow" aria-hidden="true">↓</span>
         </a>
-        <a href="#contact" class="btn btn-ghost">Bir proje konuş</a>
       </div>
     </section>
 
-    <!-- ============ LIVE WORK BOARD ============ -->
+    <!-- ============ WORK SHOWCASE ============ -->
     <section class="work" id="work" aria-labelledby="work-heading">
       <div class="section-head">
-        <h2 id="work-heading" class="section-title reveal">Yayında olanlar</h2>
-        <p class="section-meta mono reveal" id="work-meta">
-          <span class="live-count"><span class="pulse-dot" aria-hidden="true"></span> 7 / 7 yayında</span>
-        </p>
+        <h2 id="work-heading" class="section-title reveal">Yapılan işler</h2>
+        <p class="section-meta mono reveal">hepsi canlı · güncel ekran görüntüleri</p>
       </div>
 
-      <ul class="work-list" role="list">
-        <!-- Row 1 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://www.firatbirlikimalat.com/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Fırat Birlik İmalat</span>
-              <span class="work-desc">Toptan gözlük · B2B satış portalı</span>
-            </span>
-            <span class="work-tags"><span class="tag">E-ticaret</span><span class="tag">B2B</span></span>
-            <span class="work-domain mono">firatbirlikimalat.com</span>
-            <span class="work-go" aria-hidden="true">↗</span>
+      <!-- FEATURED -->
+      <article class="project project-featured reveal">
+        <a class="project-card" href="https://www.firatbirlikimalat.com/" target="_blank" rel="noopener">
+          <div class="project-media">
+            <img src="img/firat.jpg" alt="Fırat Birlik İmalat toptan gözlük satış portalı ana sayfa" loading="eager" width="1280" height="800" />
+            <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <h3 class="project-title">Fırat Birlik İmalat</h3>
+              <span class="project-go" aria-hidden="true">↗</span>
+            </div>
+            <p class="project-desc">
+              Toptan güneş gözlüğü için B2B satış portalı. Bayilerin toplu
+              sipariş verebileceği, ürün kataloğu ve fiyat yönetimi içeren
+              bir altyapı.
+            </p>
+            <div class="project-meta-row">
+              <span class="tag">E-ticaret</span>
+              <span class="tag">B2B</span>
+              <span class="tag">Toptan</span>
+              <span class="project-domain mono">firatbirlikimalat.com</span>
+            </div>
+          </div>
+        </a>
+      </article>
+
+      <!-- GRID -->
+      <div class="project-grid">
+        <article class="project reveal">
+          <a class="project-card" href="https://www.kinary.com.tr/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/kinary.jpg" alt="Kinary güneş gözlüğü markası online mağaza ana sayfa" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">Kinary</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Güneş gözlüğü markası için B2C online mağaza. Marka kimliğini
+                öne çıkaran, görsel ağırlıklı ürün vitrini.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">E-ticaret</span>
+                <span class="tag">Marka</span>
+                <span class="project-domain mono">kinary.com.tr</span>
+              </div>
+            </div>
           </a>
-        </li>
-
-        <!-- Row 2 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://www.kinary.com.tr/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Kinary</span>
-              <span class="work-desc">Güneş gözlüğü markası · B2C mağaza</span>
-            </span>
-            <span class="work-tags"><span class="tag">E-ticaret</span><span class="tag">Marka</span></span>
-            <span class="work-domain mono">kinary.com.tr</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <!-- Row 3 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://www.mertkuyumcu.com.tr/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Mert Kuyumculuk</span>
-              <span class="work-desc">Altın & döviz · canlı kur tablosu</span>
-            </span>
-            <span class="work-tags"><span class="tag">Finans</span><span class="tag">Canlı veri</span></span>
-            <span class="work-domain mono">mertkuyumcu.com.tr</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <!-- Row 4 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://socika.com/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Socika</span>
-              <span class="work-desc">Dijital ajans · strateji & hizmet</span>
-            </span>
-            <span class="work-tags"><span class="tag">Ajans</span><span class="tag">Kurumsal</span></span>
-            <span class="work-domain mono">socika.com</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <!-- Row 5 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://epinsepetin.com/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Epinsepetin</span>
-              <span class="work-desc">Dijital ürün & çekiliş platformu</span>
-            </span>
-            <span class="work-tags"><span class="tag">Pazar yeri</span><span class="tag">Platform</span></span>
-            <span class="work-domain mono">epinsepetin.com</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <!-- Row 6 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://hesappazarimm.com/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">Hesappazarım</span>
-              <span class="work-desc">Oyun e-pin & gold pazarı (KO, LoL, Valorant)</span>
-            </span>
-            <span class="work-tags"><span class="tag">Oyun</span><span class="tag">Pazar yeri</span></span>
-            <span class="work-domain mono">hesappazarimm.com</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-
-        <!-- Row 7 -->
-        <li class="work-row reveal">
-          <a class="work-link" href="https://aracsosyal.net/" target="_blank" rel="noopener">
-            <span class="work-status"><span class="pulse-dot" aria-hidden="true"></span><span class="sr-only">Yayında</span></span>
-            <span class="work-name">
-              <span class="work-title">AraçSosyal</span>
-              <span class="work-desc">Otomotiv bilgi & içerik platformu</span>
-            </span>
-            <span class="work-tags"><span class="tag">İçerik</span><span class="tag">Otomotiv</span></span>
-            <span class="work-domain mono">aracsosyal.net</span>
-            <span class="work-go" aria-hidden="true">↗</span>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ============ APPROACH ============ -->
-    <section class="approach" id="approach" aria-labelledby="approach-heading">
-      <div class="section-head">
-        <h2 id="approach-heading" class="section-title reveal">Nasıl çalışırım</h2>
-      </div>
-
-      <div class="approach-grid">
-        <article class="approach-card reveal">
-          <h3 class="approach-card-title">Hızlı yayına alınır</h3>
-          <p>
-            İki hafta içinde gerçek kullanıcıya açılan, ödeme entegrasyonu tam,
-            panelli siteler. Mock-up'ta bekleme yok.
-          </p>
         </article>
-        <article class="approach-card reveal">
-          <h3 class="approach-card-title">Sektör göre şekillenir</h3>
-          <p>
-            Kuyumcunun işi canlı kur, oyun pazarının işi envanter akışı.
-            Mimariyi işin gerçek akışından türetirim.
-          </p>
+
+        <article class="project reveal">
+          <a class="project-card" href="https://www.mertkuyumcu.com.tr/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/mert.jpg" alt="Mert Kuyumculuk altın ve döviz canlı fiyat tablosu" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">Mert Kuyumculuk</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Altın ve döviz için anlık fiyat tablosu. Müşterinin alış-satış
+                kurlarını canlı takip edebildiği kuyumculuk sitesi.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">Finans</span>
+                <span class="tag">Canlı veri</span>
+                <span class="project-domain mono">mertkuyumcu.com.tr</span>
+              </div>
+            </div>
+          </a>
         </article>
-        <article class="approach-card reveal">
-          <h3 class="approach-card-title">Sonradan değil baştan</h3>
-          <p>
-            SEO, hız, mobil deneyim ve ödeme güvenliği tasarım aşamasında
-            kararlaştırılır — geç eklenen bir eklenti değil.
-          </p>
+
+        <article class="project reveal">
+          <a class="project-card" href="https://socika.com/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/socika.jpg" alt="Socika dijital ajans strateji ve hizmet sayfası" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">Socika</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Dijital ajans için kurumsal site. Strateji, hizmet ve sipariş
+                takibini tek arayüzde toplayan müşteri portalı.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">Ajans</span>
+                <span class="tag">Kurumsal</span>
+                <span class="project-domain mono">socika.com</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project reveal">
+          <a class="project-card" href="https://epinsepetin.com/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/epin.jpg" alt="Epinsepetin dijital ürün ve çekiliş platformu ana sayfa" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">Epinsepetin</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Dijital ürün satışı ve çekiliş platformu. Bakiye yükleme,
+                ürün sepeti ve yardım süreçlerini birleştiren sistem.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">Pazar yeri</span>
+                <span class="tag">Platform</span>
+                <span class="project-domain mono">epinsepetin.com</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project reveal">
+          <a class="project-card" href="https://hesappazarimm.com/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/hesap.jpg" alt="Hesappazarım oyun e-pin ve gold pazarı ana sayfa" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">Hesappazarım</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Oyun e-pin ve gold pazarı. Knight Online, LoL, Valorant, Steam,
+                Metin2 gibi oyunlar için yetkili dijital ürün tedariği.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">Oyun</span>
+                <span class="tag">Pazar yeri</span>
+                <span class="project-domain mono">hesappazarimm.com</span>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article class="project reveal">
+          <a class="project-card" href="https://aracsosyal.net/" target="_blank" rel="noopener">
+            <div class="project-media">
+              <img src="img/arac.jpg" alt="AraçSosyal otomotiv bilgi ve içerik platformu ana sayfa" loading="lazy" width="1280" height="800" />
+              <span class="project-live"><span class="pulse-dot" aria-hidden="true"></span> YAYINDA</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="project-title">AraçSosyal</h3>
+                <span class="project-go" aria-hidden="true">↗</span>
+              </div>
+              <p class="project-desc">
+                Otomotiv dünyası için bilgi ve içerik platformu. Araç
+                incelemeleri, yakıt tasarrufu ve sigorta rehberleri.
+              </p>
+              <div class="project-meta-row">
+                <span class="tag">İçerik</span>
+                <span class="tag">Otomotiv</span>
+                <span class="project-domain mono">aracsosyal.net</span>
+              </div>
+            </div>
+          </a>
         </article>
       </div>
     </section>
@@ -209,15 +245,15 @@
     <section class="contact" id="contact" aria-labelledby="contact-heading">
       <p class="eyebrow mono reveal">bir sonraki proje</p>
       <h2 id="contact-heading" class="contact-title reveal">
-        Bir fikrin varsa,<br /><em>hayata geçirelim.</em>
+        Senin fikrin <em>hangisi?</em>
       </h2>
       <p class="contact-sub reveal">
-        Yeni bir mağaza, kurumsal site ya da platform — atanacak ilk
-        mesajı bekliyorum. Genellikle aynı gün dönerim.
+        Yeni bir mağaza, kurumsal site ya da platform — yayına hazır
+        bir ürün için konuşalım.
       </p>
       <div class="contact-cta reveal">
-        <a href="mailto:mete@metesd0.dev" class="btn btn-primary">
-          mete@metesd0.dev
+        <a href="mailto:hello@oflstudio.com" class="btn btn-primary">
+          hello@oflstudio.com
           <span class="btn-arrow" aria-hidden="true">→</span>
         </a>
       </div>
@@ -227,8 +263,8 @@
   <!-- ============ FOOTER ============ -->
   <footer class="site-footer">
     <div class="footer-row">
-      <span class="mono footer-id">© <span id="year">2026</span> mete.dev</span>
-      <span class="footer-made">İstanbul'da kahve eşliğinde kodlandı.</span>
+      <span class="mono footer-id">OFL STUDIO · <span id="year">2026</span></span>
+      <span class="footer-made">Dijital ürünler, sıfırdan yayına.</span>
       <a href="#top" class="footer-top">Başa dön ↑</a>
     </div>
   </footer>

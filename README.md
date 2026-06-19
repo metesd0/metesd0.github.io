@@ -1,10 +1,11 @@
-# mete.dev — Portfolyo
+# OFL STUDIO — Portfolyo
 
-Koyu temalı, tek sayfalık kişisel portfolyo. GitHub Pages üzerinden yayında.
+Dijital ürün atölyesi. Koyu temalı, görsel ağırlıklı tek sayfalık portfolyo.
+Sadece yapılan işler — yedi canlı proje, güncel ekran görüntüleriyle.
 
 🔗 **Canlı:** <https://metesd0.github.io>
 
-## Yayındaki işler
+## Yapılan işler
 
 | Site | Sektör |
 |------|--------|
@@ -18,20 +19,22 @@ Koyu temalı, tek sayfalık kişisel portfolyo. GitHub Pages üzerinden yayında
 
 ## Tasarım
 
-- **Tema:** "Gece Atölyesi" — sıcak grafit koyu zemin, bakır vurgu
-- **Tipografi:** Fraunces (display) · Inter (gövde) · JetBrains Mono (meta)
+- **Tema:** Sıcak grafit koyu zemin + bakır vurgu
+- **Tipografi:** Bricolage Grotesque (display) · Inter (gövde) · JetBrains Mono (meta)
+- **Görseller:** Her projenin gerçek ekran görüntüsü, optimize edilmiş JPEG
 - **Erişilebilirlik:** klavye odak, `prefers-reduced-motion`, mobil uyum
 
 ## Dosyalar
 
 ```
-index.html      # tek sayfa
+index.html      # tek sayfa — showcase
 styles.css      # tüm stiller
-main.js         # saat, scroll reveal, parallax
+main.js         # scroll reveal, parallax
+img/*.jpg       # proje ekran görüntüleri
 favicon.svg     # ikon
 .nojekyll       # Pages'in düz dosyaları sunması için
 ```
 
 ## Yayınlama
 
-`main` dalına push yeterli — GitHub Pages `main` kökünden otomatik yayımlar.
+`main` dalına push yeterli — GitHub Pages otomatik yayımlar.
